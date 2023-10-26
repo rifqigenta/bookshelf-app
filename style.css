@@ -1,0 +1,62 @@
+.item-container > .inner h3 {
+  margin-bottom: unset;
+}
+
+.item-container > .inner p {
+  margin-top: 5px;
+}
+
+.item-container {
+  background-color: transparent;
+  border-left: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  color: white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 5px 15px 15px 1px rgba(0, 0, 0, 0.25);
+  margin-block: 2em;
+  padding: 1em;
+}
+
+button.selesai-dibaca {
+  color: white;
+  margin-inline-end: 1em;
+  margin-block-start: 1em;
+  padding-block: 0.2em;
+  padding-inline: 2em;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: green;
+}
+button.belum-selesai-dibaca {
+  color: white;
+  /* margin-inline-end: 1em; */
+  margin-block-start: 1em;
+  padding-block: 0.2em;
+  padding-inline: 2em;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: green;
+}
+button.hapus-buku {
+  color: white;
+  padding-block: 0.2em;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  padding-inline: 1em;
+  background-color: red;
+  font-weight: bold;
+}
+
+.edit-buku {
+  background-color: #ffd600;
+  width: 3em;
+  margin-inline: 1em;
+  padding-block: 0.2em;
+  padding-inline: 1em;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  color: #363940;
+}
